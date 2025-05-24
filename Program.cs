@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 using Yarkov.UnitOfWork;
 
+// Comment
 var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", false);
 var cs = builder.Build().GetConnectionString("pgsql");
 
