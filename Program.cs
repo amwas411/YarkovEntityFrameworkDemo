@@ -6,6 +6,7 @@ using Yarkov.UnitOfWork;
 
 // Comment
 var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", false);
+// Comment2
 var cs = builder.Build().GetConnectionString("pgsql");
 
 var serviceCollection = new ServiceCollection();
